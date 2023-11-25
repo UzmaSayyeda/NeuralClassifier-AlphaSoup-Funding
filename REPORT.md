@@ -35,18 +35,18 @@
         - I implemented a function to optimize the model with hyperparameter options using `kerastuner` to pick the most efficient activation, number of neurons, and number of layers 
 
 ## Summary   
-For this challenge, I had to develope a deep learning neural network model for Alphabet Soup to select the applicants for funding with the best chance of success in their ventures. I started by preprocessing the data which involved dropping identification columns, binning some columns, dummifiying categorical columns and scaling the training and testing features datasets.
+For this challenge, I had to develop a deep learning neural network model for Alphabet Soup to select the applicants for funding with the best chance of success in their ventures. I started by preprocessing the data which involved dropping identification columns, binning some columns, dummifying categorical columns, and scaling the training and testing features datasets.
 
-Then with the help of hyperparameters tuner, I computed the accuracy and loss for the best model, after which I compiled, trained and evaluated my model which give me a loss of 60% and an accuracy of 73%.
+Then with the help of a hyperparameters tuner, I computed the accuracy and loss for the best model, after which I compiled, trained, and evaluated my model which gave me a loss of 60% and an accuracy of 73%.
 
-After this I tried to optimized my model with fine tuning the activation functions, number of layers and number of neurons. There were three attempts made which gave the following results.  
+After this, I tried to optimize my model by fine-tuning the activation functions, number of layers, and number of neurons. There were three attempts made which gave the following results.  
 <img src="./images/analysis.png" alt="comparision" width="300"/>  
 
-A different model that can be potentially be used is a Functional API, which is an easy-to-use, keras industry strength model. The functional API is a way to build layers to create a model that is more flexible than the Sequential model, so you can specify its inputs and outputs in layers.
-So we can fine tune the hyperparameters to get the highest accuraacy.
-We can additionly include built-in layers for example  
+A different model that can potentially be used is a Functional API, which is an easy-to-use, keras industry strength model. The functional API is a way to build layers to create a model that is more flexible than the Sequential model, so you can specify its inputs and outputs in layers.
+So we can fine-tune the hyperparameters to get the highest accuracy.
+We can additionally include built-in layers for example  
 - Convolutional layers  
 - Pooling layers  
 - RNN layers, etc.  
 
-We can also try an ensemble approach which comebines machine learning models like randon forest and decision trees.
+We can also try an ensemble approach that combines machine-learning models like random forests and decision trees.
