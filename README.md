@@ -103,7 +103,7 @@ The report should contain the following:
 - Data Preprocessing
 
     - What variable(s) are the target(s) for your model?
-    - What variable(s) are the features for your model?
+    - What variable(s) are the features of your model?
     - What variable(s) should be removed from the input data because they are neither targets nor features?  
 - Compiling, Training, and Evaluating the Model
 
@@ -114,3 +114,4 @@ The report should contain the following:
 
 ### Credits
 [ModelCheckpoint](https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/ModelCheckpoint)  
+ASKbcs for binning.
